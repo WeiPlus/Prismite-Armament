@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "prismite",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "prismite_armament:prismite_ore"
+  },
+  "result": "prismite_armament:prismite_ingot"
+}

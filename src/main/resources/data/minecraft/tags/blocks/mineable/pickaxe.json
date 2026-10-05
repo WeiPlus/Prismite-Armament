@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "prismite_armament:deepslate_prismite_ore",
+    "prismite_armament:prismite_block",
+    "prismite_armament:prismite_ore"
+  ]
+}

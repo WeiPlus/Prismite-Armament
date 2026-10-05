@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "prismite_armament:prismite_block"
+    }
+  ],
+  "result": {
+    "item": "prismite_armament:prismite_ingot",
+    "count": 9
+  }
+}

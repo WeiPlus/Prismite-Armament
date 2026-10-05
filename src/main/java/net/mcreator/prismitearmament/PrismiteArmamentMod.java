@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.prismitearmament.init.PrismiteArmamentModTabs;
+import net.mcreator.prismitearmament.init.PrismiteArmamentModItems;
+import net.mcreator.prismitearmament.init.PrismiteArmamentModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class PrismiteArmamentMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		PrismiteArmamentModBlocks.REGISTRY.register(bus);
+
+		PrismiteArmamentModItems.REGISTRY.register(bus);
+
+		PrismiteArmamentModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
